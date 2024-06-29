@@ -1,9 +1,7 @@
 export default function Page() {
     return (
         <>
-            <h1>
-                Exemplo 01
-            </h1>
+            <h1>Exemplo 01</h1>
         </>
     );
 }
