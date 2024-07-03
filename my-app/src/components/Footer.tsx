@@ -1,11 +1,18 @@
-export default function Footer() {
+export default function Footer({
+    leftText,
+    rightText
+}: { leftText: string, rightText: string }) {
     return (
-        <footer className={
-            `h-36 flex justify-center items-center
-            bg-cyan-600 rounded-lg`
-        }>
-            <p className="text-xl">
-                Rodapé
+        <footer className={`
+            h-36 rounded-lg p-4
+            flex justify-between items-center
+            bg-cyan-600
+        `}>
+            <p>
+                {leftText}
+            </p>
+            <p>
+                {rightText}
             </p>
         </footer>
     )

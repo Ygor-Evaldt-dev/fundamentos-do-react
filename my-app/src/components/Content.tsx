@@ -1,10 +1,12 @@
-export default function Content() {
+export default function Content({
+    children
+}: any) {
     return (
         <section className={
-            `flex justify-center items-center rounded-lg flex-1
+            `flex flex-col rounded-lg flex-1 p-2
             bg-emerald-400 text-3xl`
         }>
-            <p>Conteúdo</p>
+            {children}
         </section>
     )
 }

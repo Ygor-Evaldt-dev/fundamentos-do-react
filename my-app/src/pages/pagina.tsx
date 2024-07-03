@@ -14,8 +14,18 @@ export default function Page() {
                 title="Minha Página"
                 subtitle="Estou na pasta pages"
             />
-            <Content />
-            <Footer />
+            <Content>
+                <h2 className="font-black">
+                    Origem
+                </h2>
+                <p className="text-lg">
+                    Esta página está sendo construída no diretório pages
+                </p>
+            </Content>
+            <Footer
+                leftText="Feito com amor por: Ygor Evaldt"
+                rightText={`Todos os direitos reservados ${new Date().getFullYear()}`}
+            />
         </ section>
     );
 }
