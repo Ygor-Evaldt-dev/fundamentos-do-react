@@ -2,12 +2,13 @@ import Content from "@/components/content/Content";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Menu from "@/components/menu/Menu";
+import { Props } from "./Props";
 
 export default function DinamicPage({
     children,
     headerTitle,
     headerSubtitle
-}: any) {
+}: Props) {
     return (
         <section className={`
             flex gap-2
