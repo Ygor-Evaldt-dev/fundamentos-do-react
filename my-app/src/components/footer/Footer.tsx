@@ -1,10 +1,12 @@
+import { Props } from "./Props";
+
 export default function Footer({
     leftText,
     rightText
-}: { leftText: string, rightText: string }) {
+}: Props) {
     return (
         <footer className={`
-            h-36 rounded-lg p-4
+            h-16 rounded-lg p-4
             flex justify-between items-center
             bg-cyan-600
         `}>

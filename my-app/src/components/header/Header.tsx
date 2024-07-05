@@ -1,12 +1,15 @@
+import { Props } from "./Props";
+
 export default function Header({
     title,
-    subtitle
-}: any) {
+    subtitle,
+    className
+}: Props) {
     return (
         <header className={`
-            h-36 rounded-lg 
+            h-28 rounded-lg 
             flex flex-col justify-center items-center 
-            bg-purple-600 text-white 
+            bg-purple-600 text-white ${className ?? ''}
         `}>
             <h1 className="text-3xl font-black">{title}</h1>
             <p>{subtitle}</p>

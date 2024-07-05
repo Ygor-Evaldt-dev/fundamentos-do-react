@@ -1,12 +1,14 @@
+import { Props } from "./Props";
+
 export default function Content({
     children
-}: any) {
+}: Props) {
     return (
-        <section className={
+        <main className={
             `flex flex-col rounded-lg flex-1 p-2
             bg-emerald-400 text-3xl`
         }>
             {children}
-        </section>
+        </main>
     )
 }
