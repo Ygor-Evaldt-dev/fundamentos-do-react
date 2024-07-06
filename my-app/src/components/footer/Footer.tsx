@@ -6,14 +6,14 @@ export default function Footer({
 }: Props) {
     return (
         <footer className={`
-            h-16 rounded-lg p-4
+            h-10 p-4
             flex justify-between items-center
-            bg-cyan-600
+            bg-zinc-700 border-2 border-zinc-600
         `}>
-            <p>
+            <p className="text-sm">
                 {leftText}
             </p>
-            <p>
+            <p className="text-sm">
                 {rightText}
             </p>
         </footer>

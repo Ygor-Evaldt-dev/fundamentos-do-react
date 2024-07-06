@@ -3,6 +3,7 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Menu from "@/components/menu/Menu";
 import { Props } from "./Props";
+import SideArea from "../side-area/SideArea";
 
 export default function DinamicPage({
     children,
@@ -11,21 +12,21 @@ export default function DinamicPage({
 }: Props) {
     return (
         <section className={`
-            flex gap-2
-            h-screen p-2
+            flex
+            h-screen
         `}>
-            <Menu />
-            <section className="flex flex-col flex-1 gap-2">
+            <SideArea />
+            <section className="flex flex-col flex-1">
                 <Header
                     title={headerTitle}
                     subtitle={headerSubtitle}
-                    className="bg-gradient-to-r from-blue-600 to-zinc-800"
+                    className="bg-zinc-800"
                 />
                 <Content>
                     {children}
                 </Content>
                 <Footer
-                    leftText="Feito com amor por: Ygor Evaldt"
+                    leftText="Feito por: Ygor Evaldt"
                     rightText={`Todos os direitos reservados ${new Date().getFullYear()}`}
                 />
             </section>

@@ -11,7 +11,7 @@ export default function Page() {
             <h2 className="font-black">
                 Página
             </h2>
-            <p className="text-lg">
+            <p className="text-base">
                 Esta página está sendo construída no diretório pages
             </p>
         </DinamicPage>

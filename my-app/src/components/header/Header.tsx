@@ -7,12 +7,13 @@ export default function Header({
 }: Props) {
     return (
         <header className={`
-            h-28 rounded-lg 
-            flex flex-col justify-center items-center 
-            bg-purple-600 text-white ${className ?? ''}
+            h-16
+            flex flex-col justify-center items-start px-2
+            text-white border-b border-zinc-900
+            ${className ?? ''}
         `}>
-            <h1 className="text-3xl font-black">{title}</h1>
-            <p>{subtitle}</p>
+            <h1 className="text-2xl font-black">{title}</h1>
+            <p className="text-sm text-zinc-400">{subtitle}</p>
         </header>
     );
 }
