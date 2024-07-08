@@ -9,7 +9,7 @@ export default function MenuItem({
     return (
         <Link
             className={`
-                bg-black hover:bg-zinc-900  rounded-md 
+                hover:bg-zinc-900  rounded-md 
                 px-4 py-2 w-full flex gap-2 items-center
                 text-start     
             `}

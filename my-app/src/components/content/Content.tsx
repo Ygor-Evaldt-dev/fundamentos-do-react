@@ -6,7 +6,7 @@ export default function Content({
     return (
         <main className={
             `flex flex-col flex-1 p-2
-            bg-zinc-700 text-3xl`
+            bg-zinc-700`
         }>
             {children}
         </main>
