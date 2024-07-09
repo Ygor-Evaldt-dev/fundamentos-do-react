@@ -8,7 +8,7 @@ export default function Logo() {
             className={`
                 h-16 p-2
                 flex items-center gap-2
-                bg-gradient-to-t to-zinc-900 from-purple-900
+                bg-purple-900
             `}
         >
             <span><IconBrandReact size={35} stroke={1} /></span>
