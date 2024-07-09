@@ -1,5 +1,5 @@
-import Logo from "../logo/Logo";
-import Menu from "../menu/Menu";
+import Logo from "@/components/logo/Logo";
+import Menu from "@/components/menu/Menu";
 
 export default function SideArea() {
     return (

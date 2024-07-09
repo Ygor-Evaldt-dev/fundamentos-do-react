@@ -1,19 +1,19 @@
 import "@/app/globals.css";
 
 import DinamicPage from "@/components/dinamic-page/DinamicPage";
+import { useState } from "react";
 
-export default function Sem() {
-    let number = 0;
+export default function Com() {
+    const [number, setNumber] = useState(0);
 
     function incrementNumber() {
-        number += 1;
-        console.log('number', number);
+        setNumber(number + 1);
     }
 
     return (
         <DinamicPage
-            headerTitle="Componente sem estado"
-            headerSubtitle="Exemplo de componente sem estado"
+            headerTitle="Componente com estado"
+            headerSubtitle="Exemplo de componente com estado"
         >
             <section className="flex flex-col gap-2 items-start">
                 <div className="flex gap-2">

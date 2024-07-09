@@ -1,4 +1,4 @@
-import { IconBrandJavascript, IconCode, IconFileCheck, IconH1, IconHome, IconRepeat } from "@tabler/icons-react";
+import { IconBrandJavascript, IconCode, IconFileCheck, IconH1, IconRepeat } from "@tabler/icons-react";
 import MenuItem from "./menu-item/MenuItem";
 
 export default function Menu() {
@@ -9,6 +9,7 @@ export default function Menu() {
         `}>
             <span className="text-sm text-zinc-500">Estado</span>
             <MenuItem label="Componente sem estado" url="/estado/sem" icon={<IconCode />} />
+            <MenuItem label="Componente com estado" url="/estado/com" icon={<IconCode />} />
             <span className="text-sm text-zinc-500">Fundamentos</span>
             <MenuItem label="Início" url="/pagina" icon={<IconFileCheck />} />
             <MenuItem label="Evento" url="/evento-basico" icon={<IconRepeat />} />
