@@ -1,0 +1,25 @@
+
+.rotate {
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.button {
+    @apply rounded-lg bg-purple-700;
+    @apply hover:bg-purple-600 transition-all;
+    @apply px-4 py-2;
+}
+
+.input {
+    @apply rounded-lg bg-black;
+    @apply text-white;
+    @apply py-2 px-4;
+}
