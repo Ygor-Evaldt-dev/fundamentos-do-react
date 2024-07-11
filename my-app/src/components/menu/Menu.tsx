@@ -1,5 +1,6 @@
 import {
     IconBrandJavascript,
+    IconCalculator,
     IconCode,
     IconFileCheck,
     IconForms,
@@ -11,7 +12,7 @@ import MenuItem from './menu-item/MenuItem';
 
 export default function Menu() {
     return (
-        <nav
+        <aside
             className={`
             min-w-52 px-2 py-5
             flex flex-col gap-1
@@ -37,6 +38,11 @@ export default function Menu() {
                 label="Campo de entrada"
                 url="/campo-de-entrada"
                 icon={<IconForms />}
+            />
+            <MenuItem
+                label="Calculadora"
+                url="/calculadora"
+                icon={<IconCalculator />}
             />
             <span className="text-sm text-zinc-500">Fundamentos</span>
             <MenuItem
@@ -70,6 +76,6 @@ export default function Menu() {
                 url="/componentes/trecho"
                 icon={<IconBrandJavascript />}
             />
-        </nav>
+        </aside>
     );
 }
