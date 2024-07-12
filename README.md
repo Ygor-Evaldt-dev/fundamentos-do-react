@@ -7,7 +7,7 @@ Não deixe de consultar a [documentação oficial.](https://react.dev/)
 
 ## Sessões
 - [Introdução](#introducao)
-- [Configurando novo projeto](#configuracao)
+- [Configurando novo projeto Next.js](#configuracao)
 - [Rotas no Next.js](#rotas-no-nextjs)
 - [Primeiro componente](#primeiro-componente)
 - [O que é Componente?](#o-que-e-componente)
@@ -39,7 +39,7 @@ Embora este conteúdo seja focado nos fundamentos do React, hoje em dia já não
 Este conteúdo irá abordar muitos fundamentos importantes, como: componentes, eventos, estado, comunicação direta e indireta, entre outros.
 
 <a id="configuracao"></a>
-## Configurando novo projeto
+## Configurando novo projeto Next.js
 
 Siga as instruções da [documentação oficial](https://nextjs.org/docs/getting-started/installation) para criação de um novo projeto Next.js
 
