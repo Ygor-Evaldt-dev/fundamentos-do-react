@@ -30,3 +30,36 @@ body {
         text-wrap: balance;
     }
 }
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track,
+.bg-black::-webkit-scrollbar-track {
+    background: #27272A;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+}
+
+.bg-black {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: black;
+}
+
+.bg-black::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+
+.bg-black::-webkit-scrollbar-track {
+    background: #27272A;
+}
+
+
