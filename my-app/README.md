@@ -1,5 +1,5 @@
 # Projeto laboratório
-Status: ![Concluído](https://img.shields.io/badge/status-concluído-brightgreen)
+![Concluído](https://img.shields.io/badge/status-concluído-brightgreen)
 
 ## Apresentação
 Este projeto foi construído enquanto estudava os fundamentos da biblioteca React na plataforma [Formação DEV](https://www.formacao.dev/) da Cod3r.
