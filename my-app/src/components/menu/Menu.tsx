@@ -1,4 +1,6 @@
 import {
+    IconArrowDown,
+    IconArrowUp,
     IconBrandJavascript,
     IconCalculator,
     IconCode,
@@ -18,6 +20,17 @@ export default function Menu() {
             flex flex-col gap-1
         `}
         >
+            <span className="text-sm text-zinc-500">Comunicação</span>
+            <MenuItem
+                label="Direta"
+                url="/comunicacao/direta"
+                icon={<IconArrowDown />}
+            />
+            <MenuItem
+                label="Indireta"
+                url="/comunicacao/indireta"
+                icon={<IconArrowUp />}
+            />
             <span className="text-sm text-zinc-500">Estado</span>
             <MenuItem
                 label="Componente sem estado"
