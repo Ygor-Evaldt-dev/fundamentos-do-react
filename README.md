@@ -1,5 +1,5 @@
 # Fundamentos de React
-React é uma biblioteca JavaScript desenvolvida pela Facebook, muito utilizada para construir insterfaces de usuário interativas com componentes reutilizáveis e dinâmicos em aplicações web.
+React é uma biblioteca JavaScript desenvolvida pela Facebook, muito utilizada para construir interfaces de usuário interativas com componentes reutilizáveis e dinâmicos em aplicações web.
 
 Este documento contém informações para construção de uma base de conhecimento sólida sobre os fundamentos do React.
 
